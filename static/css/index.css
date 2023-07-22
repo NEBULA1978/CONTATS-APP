@@ -3,7 +3,14 @@
 }
 
 .welcome {
-    background: url('background.jpg');
+    /* background: url('background.jpg'); */
+    /* background: url('images.jpeg'); */
+    background: url('images2.jpeg');
+    /* background: url('Sin\ título.jpeg'); */
+    /* background: url('Sin\ título3.jpeg'); */
+    /* background: url('Sin\ título3.jpeg'); */
+    /* NO FUNCIONA */
+    /* background: url('/static/img/background.jpg'); */
     background-position: center center;
     background-size: cover;
 }
