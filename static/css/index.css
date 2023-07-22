@@ -3,7 +3,19 @@
 }
 
 .welcome {
-    background: url('/contacts-app/static/img/background.jpg');
+    background: url('background.jpg');
     background-position: center center;
     background-size: cover;
+}
+
+/* Asegura que la imagen de fondo ocupe toda la pantalla */
+.welcome {
+    height: 100vh;
+}
+
+/* Media query para ajustar la imagen de fondo en pantallas más pequeñas */
+@media (max-width: 768px) {
+    .welcome {
+        background-size: cover;
+    }
 }
