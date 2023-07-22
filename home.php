@@ -42,4 +42,27 @@ $contacts = $conn->query("SELECT * FROM contacts WHERE user_id = {$_SESSION['use
   </div>
 </div>
 
+<script defer type="text/javascript" src="index.js"></script>
+<link rel="stylesheet" type="text/css" href="index2.css">
+
+
+
+
+<div class="contenedor-botones">
+  <button id="boton1">Añadir</button>
+  <button id="boton2" disabled>Mostrar todos</button>
+</div>
+<div id="caja"></div>
+
+
+<script defer src="index.js"></script>
+
+
+
+
+
+
 <?php require "partials/footer.php" ?>
+
+<!-- PAra iniciar en navegador: -->
+<!-- http://localhost/CONTACTS-APP/index.php -->

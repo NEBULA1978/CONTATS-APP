@@ -1,0 +1,27 @@
+.contenedor-botones {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.contenedor-botones button {
+    margin: 0 10px;
+}
+
+#caja {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+
+#caja div {
+    width: 48%;
+    margin-bottom: 10px;
+}
+
+img {
+    max-width: 100%;
+    vertical-align: top;
+}
