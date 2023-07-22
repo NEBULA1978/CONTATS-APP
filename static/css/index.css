@@ -3,14 +3,9 @@
 }
 
 .welcome {
-    /* background: url('background.jpg'); */
-    /* background: url('images.jpeg'); */
-    background: url('images2.jpeg');
-    /* background: url('Sin\ título.jpeg'); */
-    /* background: url('Sin\ título3.jpeg'); */
-    /* background: url('Sin\ título3.jpeg'); */
-    /* NO FUNCIONA */
-    /* background: url('/static/img/background.jpg'); */
+    /* background: url('../img/background.jpg'); */
+    background: url('../img/images2.jpeg');
+
     background-position: center center;
     background-size: cover;
 }
